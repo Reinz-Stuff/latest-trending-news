@@ -44,4 +44,3 @@ def tampilkan_data(result):
     print(f"#3. {result['third_news']}.")
     print(f"#4. {result['fourth_news']}.")
     print(f"#5. {result['fifth_news']}.")
-
