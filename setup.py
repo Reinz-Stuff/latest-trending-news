@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.1",
     author="Fauzi Kurniawan",
     author_email="fauzik354313@gmail.com",
-    description="This package will get the latest trending news taken from detik.com",
+    description="This package will display the latest trending news data taken from detik.com",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Reinz-Stuff/latest-trending-news",
