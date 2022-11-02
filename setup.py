@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.1",
     author="Fauzi Kurniawan",
     author_email="fauzik354313@gmail.com",
-    description="This package will get the latest trending news taken from Detik.com",
+    description="This package will get the latest trending news taken from detik.com",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Reinz-Stuff/latest-trending-news",
@@ -24,5 +24,5 @@ setuptools.setup(
     # package_dir={"": "src"},
     # packages=setuptools.find_packages(where="src"),
     packages=setuptools.find_packages(),
-    python_requires=">=3.9",
+    python_requires=">=3.6",
 )
