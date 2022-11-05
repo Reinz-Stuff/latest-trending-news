@@ -9,7 +9,7 @@ import beritapopuler
 
 if __name__ == "__main__":
     print('Main Application')
-    result = beritapopuler.ektraksi_data()
+    result = beritapopuler.ekstraksi_data()
     beritapopuler.tampilkan_data(result)
 ```
 
