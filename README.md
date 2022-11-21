@@ -5,10 +5,10 @@ This package will scrape data from [detikcom](https://www.detik.com) to display 
 
 ## HOW TO USE
 ```
-import beritapopuler
+from beritapopuler import NewsTrending
 
+if __name__ == "__main__":
     berita_populer = NewsTrending()
-    print(f'News : ', berita_populer.description)
     berita_populer.run()
 ```
 

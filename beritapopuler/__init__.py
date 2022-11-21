@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 class NewsTrending:
     def __init__(self):
-        self.description = 'Latest Popular News - Detik.com'
+        self.description = 'News: Latest Popular News - Detik.com'
         self.result = None
 
     def ekstraksi_data(self):
@@ -94,11 +94,11 @@ class NewsTrending:
         print(f"#5. {self.result['kelima']['fifth_news']}.\ndiupload : {self.result['kelima']['time_five']}")
 
     def run(self):
+        print(self.description)
         self.ekstraksi_data()
         self.tampilkan_data()
 
 
 if __name__ == "__main__":
     berita_populer = NewsTrending()
-    print(f'News : ', berita_populer.description)
     berita_populer.run()
