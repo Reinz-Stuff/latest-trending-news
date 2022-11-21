@@ -7,10 +7,9 @@ This package will scrape data from [detikcom](https://www.detik.com) to display 
 ```
 import beritapopuler
 
-if __name__ == "__main__":
-    print('Main Application')
-    result = beritapopuler.ekstraksi_data()
-    beritapopuler.tampilkan_data(result)
+    berita_populer = NewsTrending()
+    print(f'News : ', berita_populer.description)
+    berita_populer.run()
 ```
 
 ## Author

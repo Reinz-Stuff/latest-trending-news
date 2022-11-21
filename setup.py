@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="latestrendingnews-indonesia",
-    version="0.3",
+    version="0.4",
     author="Fauzi Kurniawan",
     author_email="fauzik354313@gmail.com",
     description="This package will display the latest trending news data taken from detik.com",
